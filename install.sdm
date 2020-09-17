@@ -1,0 +1,25 @@
+# Do you want fo install seld distruction mode
+# for termux.
+
+cat /self-distruction-mode/README.md
+
+read -p " ? " -n 1 -r
+echo    # (optional) move to a new line
+if [[ ! $REPLY =~ ^[Yy]$ ]]
+then
+    exit 1
+fi
+
+cd
+cd self-distruction-mode
+mv -f ..sdm /data/data/com.termux/files/home/
+mv -f .sdm /data/data/com.termux/files/home/
+cd
+cd
+rm -rf self-distruction-mode
+cd
+# to crash your all terminal data type this command.
+
+#./.sdm or bash .sdm
+
+# Enjoy now........-----<./>

