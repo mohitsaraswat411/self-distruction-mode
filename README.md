@@ -11,7 +11,7 @@
 ==>>    git clone https://github.com/mohitsaraswat411/self-distruction-mode
 
 # followed by git clone command.
-
+# run bash install.sdm
 # already have execute permission to run.
 # to crash your all terminal data type this command
 
